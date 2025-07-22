@@ -81,7 +81,7 @@ body {
             align-items: center;
             justify-content: space-between;
 
-            div {
+            .left {
                 display: flex;
                 align-items: center;
                 color: var(--JF_font_color_secondary);
@@ -90,7 +90,9 @@ body {
                 line-height: 20px;
             }
 
-            div:nth-of-type(2) {
+            .right {
+                display: flex;
+                align-items: center;
                 color: var(--JF_font_color_fourth);
                 font-size: 12px;
                 line-height: 18px;
