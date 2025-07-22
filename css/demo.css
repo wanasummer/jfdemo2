@@ -1,0 +1,219 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PingFang SC';
+    background-color: var(--JF_bg_color_secondary);
+}
+
+.main {
+    position: relative;
+    width: 375px;
+    min-height: calc(812px - 44px - 34px);
+}
+
+.main>.bar {
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .back {
+        height: 24px;
+        width: 24px;
+        position: absolute;
+        left: 12px;
+    }
+}
+
+.content {
+    position: absolute;
+    width: 335px;
+    height: 414px;
+    top: calc(285px - 44px);
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--JF_font_color_secondary);
+    font-size: 14px;
+
+    .avatar {
+        position: absolute;
+        top: -128px;
+        left: 5px;
+        z-index: 2;
+    }
+
+    .line {
+        position: absolute;
+        top: -125px;
+        left: -16px;
+    }
+
+    .man {
+        position: absolute;
+        top: -208px;
+        right: 0;
+        z-index: 0;
+    }
+
+    .vip {
+        height: 134px;
+        background-color: var(--JF_bg_color_tertiary);
+        border-radius: var(--JF_radius_16);
+        width: 100%;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        color: var(--JF_font_color_secondary);
+
+        .vip-bar {
+            height: 48px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            div {
+                display: flex;
+                align-items: center;
+                color: var(--JF_font_color_secondary);
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            div:nth-of-type(2) {
+                color: var(--JF_font_color_fourth);
+                font-size: 12px;
+                line-height: 18px;
+
+                img {
+                    height: 16px;
+                    width: 16px;
+                }
+            }
+        }
+
+        .inner-content {
+            width: 239px;
+            height: 48px;
+            display: flex;
+            justify-content: space-between;
+
+            .count {
+                font-size: 20px;
+                color: var(--JF_font_color_secondary);
+                line-height: 28px;
+                font-weight: 450;
+            }
+
+            span {
+                font-size: 12px;
+                line-height: 18px;
+                font-weight: 400;
+                font-style: regular;
+                color: var(--JF_font_color_fourth);
+            }
+        }
+    }
+
+    .item {
+        height: 60px;
+        width: 100%;
+        border-radius: var(--JF_radius_16);
+        background-color: var(--JF_bg_color_tertiary);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px;
+
+        .text {
+            display: flex;
+            color: var(--JF_font_color_secondary);
+
+            div {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        img {
+            height: 16px;
+            width: 16px;
+        }
+    }
+
+    .jump {
+        fill: var(--niu_font_color_fifth);
+    }
+}
+
+.tail {
+    position: fixed;
+    height: 40px;
+    width: 375px;
+    bottom: 0;
+    border-top: var(--JF_Line_color_secondary) 1px solid;
+    color: var(--JF_font_color_secondary);
+
+    display: flex;
+    justify-content: space-evenly;
+
+    .tabbar-item {
+        font-weight: 500;
+        width: 26px;
+        height: 34px;
+        font-size: 13px;
+        line-height: 20px;
+        color: var(--JF_font_color_primary);
+
+        span {
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            height: 100%;
+        }
+    }
+}
+
+.selected-tab {
+    border-top: 2px solid black;
+    position: relative;
+    top: -1px;
+}
+
+.text {
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.vector {
+    position: absolute;
+    height: 32px;
+    width: 0.5px;
+    background-color: var(--JF_font_color_fourth);
+    left: 50%;
+    top: 50%;
+}
+
+.nick-name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--JF_font_color_primary);
+    position: relative;
+    left: 68px;
+    top: -40.5px;
+}

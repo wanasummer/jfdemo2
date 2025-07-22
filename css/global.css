@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'PangZhenGui-PMZD';
+  src: url('/static/PangMenZhengDaoZhenGuiKaiTi-2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+:root {
+  /* ========= Font Colors ========= */
+  --JF_font_color_primary: #41301B;
+  --JF_font_color_secondary: #5D492C;
+  --JF_font_color_tertiary: #8E7E64;
+  --JF_font_color_fourth: #9E9079;
+  --niu_font_color_fifth: #C2AE88;
+  --JF_font_color_white: #FFFFFF;
+
+  /* ========= Background Colors ========= */
+  --JF_bg_color_primary: #FFFAEB;
+  --JF_bg_color_secondary: #FFF9E5;
+  --JF_bg_color_tertiary: #FDF2D9;
+  --JF_bg_color_fourth: #F3E5C3;
+  --JF_bg_color_green: #E7F0DD;
+  --JF_bg_color_red: #FFEBD7;
+  --JF_bg_color_white: #FFFFFF;
+
+  /* ========= Line Colors ========= */
+  --JF_Line_color_primary: rgba(232, 211, 160, 0.5); /* #E8D3A0 + 50%透明度 */
+  --JF_Line_color_secondary: #F7EDD4;
+  --JF_Line_color_tertiary: #D9C49A;
+
+  /* ========= Functional Colors ========= */
+  --JF_functional_color_warning: #D34926;
+  --JF_functional_color_success: #2AA540;
+  --JF_functional_color_hint: #FF7E1D;
+
+  /* ========= Font Sizes / Line Heights / Weights ========= */
+  --JF_font_28_regular: normal 400 28px/40px "PingFang SC";
+  --JF_font_28_medium: normal 500 28px/40px "PingFang SC";
+  --JF_font_20_regular: normal 400 20px/30px "PingFang SC";
+  --JF_font_20_medium: normal 500 20px/30px "PingFang SC";
+  --JF_font_18_medium: normal 500 18px/26px "PingFang SC";
+  --JF_font_16_regular: normal 400 16px/24px "PingFang SC";
+  --JF_font_16_medium: normal 500 16px/24px "PingFang SC";
+  --JF_font_15_regular: normal 400 15px/22px "PingFang SC";
+  --JF_font_15_medium: normal 500 15px/22px "PingFang SC";
+  --JF_font_14_regular: normal 400 14px/20px "PingFang SC";
+  --JF_font_14_medium: normal 500 14px/20px "PingFang SC";
+  --JF_font_13_regular: normal 400 13px/20px "PingFang SC";
+  --JF_font_para_13_regular: normal 400 13px/22px "PingFang SC";
+  --JF_font_13_medium: normal 500 13px/20px "PingFang SC";
+  --JF_font_12_regular: normal 400 12px/18px "PingFang SC";
+  --JF_font_12_medium: normal 500 12px/18px "PingFang SC";
+  --JF_font_10_regular: normal 400 10px/15px "PingFang SC";
+  --JF_font_10_medium: normal 500 10px/15px "PingFang SC";
+
+  --JF_write_font_26_regular: normal 400 26px/36px "PangZhenGui-PMZD";
+  --JF_write_font_16_regular: normal 400 16px/24px "PangZhenGui-PMZD";
+  --JF_write_font_para_16_regular: normal 400 16px/36px "PangZhenGui-PMZD";
+  --JF_write_font_12_regular: normal 400 12px/18px "PangZhenGui-PMZD";
+
+  /* ========= Radius ========= */
+  --JF_radius_10: 10px;
+  --JF_radius_16: 16px;
+  --JF_radius_20: 20px;
+  --JF_radius_24: 24px;
+  --JF_radius_48: 48px;
+  --JF_radius_9999: 9999px;
+}

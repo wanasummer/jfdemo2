@@ -1,0 +1,50 @@
+/* reset.css */
+
+*{
+    box-sizing: border-box;
+}
+
+/* 1. 去除默认内外边距 */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 3. 去除列表样式 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 4. 图片不超出容器 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 5. 去除表单控件默认样式 */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* 6. 链接样式重置 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 7. 表格边框合并 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
