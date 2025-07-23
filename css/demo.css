@@ -57,22 +57,22 @@ body {
 
     .avatar {
         position: absolute;
-        top: -128px;
-        left: 5px;
-        z-index: 2;
+        top: 78px;
+        left: -170px;
+        z-index: 1;
     }
 
     .line {
         position: absolute;
-        top: -125px;
-        left: -16px;
+        top: 81px;
+        left: -195px;
     }
 
     .man {
         position: absolute;
         top: -208px;
         right: 0;
-        z-index: 0;
+        z-index: 2;
     }
 
     .vip {
@@ -85,7 +85,7 @@ body {
         flex-direction: column;
         align-items: center;
         position: relative;
-        z-index: 1;
+        z-index: 3;
         color: var(--JF_font_color_secondary);
 
         .vip-bar {
