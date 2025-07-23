@@ -188,6 +188,8 @@ body {
     display: flex;
     justify-content: space-around;
     gap: 20rem;
+    z-index: 999;
+    background-color: var(--JF_bg_color_secondary);
     .tabbar-item {
         font-weight: 500;
         width: 26rem;
